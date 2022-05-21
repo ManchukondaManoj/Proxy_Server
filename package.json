@@ -1,0 +1,23 @@
+{
+  "name": "proxy_server",
+  "version": "1.0.0",
+  "description": "Simple proxy server",
+  "main": "index.js",
+  "keywords": [
+    "proxy server",
+    "reverse proxy server",
+    "http proxy server"
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manchukonda Manoj",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "http-proxy": "^1.17.0",
+    "https": "^1.0.0",
+    "winston": "^3.2.1"
+  }
+}
